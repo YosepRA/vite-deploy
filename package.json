@@ -1,0 +1,14 @@
+{
+  "name": "vite-deploy",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "vite": "^2.5.2"
+  }
+}
